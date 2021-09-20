@@ -1,0 +1,10 @@
+name: chaf
+version: "0.1.0"
+about: Counts the frequencies of chars in a file.
+args:
+    - files:
+        help: One or multiple files
+        required: true
+        takes_value: true
+        multiple: true
+        value_name: FILES
